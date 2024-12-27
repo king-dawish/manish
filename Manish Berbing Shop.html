@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Hair Cut</title>
+    <style>
+        body {
+            font-family: Arial, 
+            sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background-color:
+            #f4f4f4;
+        }
+          header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+          }
+          header h1 {
+            margin: 0;
+          }
+          .container { 
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .about, .appointment {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px
+        rgba(0,0,0,0.1);
+        } 
+        .about h2 .appointment h2 {
+          color: #333;  
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+     <header>
+        <h1>Manish Barbing Shop</h1>
+        <p>Book your appointment and skip the wait</p>
+     </header>
+
+     <div> class="container">
+        <!--About Section-->
+        <div class="about">
+            <h2>About Us</h2>
+            <p>Welcome to our barbershop! We are passionate about providing high-quality grooming services in a friendly and professional environment. With skilled barbers and personalized attention, we ensure you look and feel your best. Book an appointment today and experience the difference</p>
+        </div>
+        <!--Appointment Form-->
+        <div class="appointment">
+            <h2>Book an Appointment</h2>
+                                    <Form action="submit appointment.php" method="POST">
+                                        <label for="name">Full Name:</label>
+                                            <input type="text" id="name" name="name"required>
+                                            
+
+                                            <label for="email">Email Address:</label>
+                                                                    <input type="email" id="email" name="email" required>
+                                            
+                                                                    <label  for="Phone">Phone Number:</label>
+                                                                       <input type="tel" id="phone" name="phone" required>
+                                         
+                                                                       <labe1 for="date">Preferred Date</label>
+                                         
+                                            <input type="date" id="date" name="date" required>
+                                         
+                                         <label for="time">Preferred Time:</label> 
+                                         <select id="time"  name="time">
+                                           
+                                            <option>
+                                                value="10:00 AM">10:00 AM</option>
+                                                <option>
+                                                    value="11:00 AM">11:00 AM</option>
+                                                    <opton>
+                                                        value="12:00 AM">12:00 AM</opton>
+                                                        <option>
+                                                            value="1:00 PM">1:00 PM</option>
+                                                    <option>
+                                                        value="2:00 PM">2:00 PM</option>
+                                                        <option>
+                                                            value="3:00 PM">3:00 PM</option>
+                                                    
+                                        
+                                                </select>
+
+                                                <label for="message">special instructions:</label>
+                                                <texterea id="message" name="message" rows="4" placeholder="Let us know anything specific you'd like!"></texterea>
+                                                <button tpe="submit">Book Now</button>
+                                                </form>
+
+
+        </div>
+        <footer>
+            <p>ç 2024 Manish Berbing Shop. All Rights Reserved.</p>
+        </footer>
+    
+</body>
+</html>
